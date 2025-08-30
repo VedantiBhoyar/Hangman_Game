@@ -5,7 +5,7 @@ from hangman_art import  *
 lives = 6
 print(logo)
 chosen_word = random.choice(word_list)
-print(chosen_word)
+#print(chosen_word)
 
 placeholder = ""
 word_length = len(chosen_word)
